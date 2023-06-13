@@ -25,11 +25,7 @@ struct RecipeListView: View {
                                 .cornerRadius(5)
                             Text(r.name)
                         }
-                        
                     })
-                
-                
-                
             }
             .navigationBarTitle("All Recipes")
         }
