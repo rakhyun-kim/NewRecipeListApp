@@ -12,12 +12,13 @@ class Recipe: Identifiable, Decodable {
     var cookTime:String
     var totalTime:String
     var servings:Int
-    var highlights:[String]
-    var ingredients:[Ingredient]
+    var highlights:[String] //6.12 add
+    var ingredients:[Ingredient] //6.12 add
     var directions:[String]
     
 }
 
+//.6.12 add
 class Ingredient: Identifiable, Decodable {
     
     var id:UUID?
